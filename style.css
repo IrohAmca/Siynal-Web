@@ -1,0 +1,66 @@
+/* Reset CSS (isteğe bağlı) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nan en{
+	display: inline;
+	margin-bottom: active;
+}
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+hidden {
+    background-image: url('web_sitesi_arka_plan.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.background {
+    background-image: url('web_sitesi_arka_plan.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 20px; 
+}
+.icon-img {
+    position: fixed;
+    top: 10px; 
+	right: 10px; 
+    z-index: 10; 
+	background-color: transparent;
+}
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+}
